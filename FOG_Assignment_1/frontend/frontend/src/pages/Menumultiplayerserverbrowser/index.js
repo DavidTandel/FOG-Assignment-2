@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet";
 import { Img, Heading, Button, Text, BreadcrumbLink, Breadcrumb, BreadcrumbItem } from "../../components";
-import ImageGallery from "../../components/ImageGallery";
-import MenuMultiplayerServerBrowserInvite from "../../components/MenuMultiplayerServerBrowserInvite";
-import RegionInfoRow from "../../components/RegionInfoRow";
-import Sidebar1 from "../../components/Sidebarl";
+import ImageGallery from "../../components/ImageGallery"
+import MenuMultiplayerServerBrowserInvite from "../../components/MenuMultiplayerServerBrowserlnvite/index";
+import RegionInfoRow from "../../components/RegionlnfoRow/index";
+import Sidebar1 from "../../components/Sidebar1/index";
 import React, { Suspense } from "react";
 
 const regionSettingsList = [
@@ -136,14 +136,14 @@ export default function MenuMultiplayerServerBrowserPage() {
                             as="h6"
                             className="text-[18px] font-semibold leading-[22px] tracking-[0.54px] !text-white-1 lg:text-[15px]"
                             >
-                            <>
+                            {/* <>
                             
                                 Server protected by The_K-50 AntiCheat. Vip !Rules, Questions, Request, Appeal, Visit us:
                                 <br />
                                 www.epg.gg | Discord
                                 <br />
                                 https://discord.gg/3r5NK4d
-                                </>
+                                </> */}
                             </Heading>
                             <div className="flex self-stretch md:flex-col">
                                 <Button shape="square" className="min-w-[324px] !border px-[33px] tracking-[1.08px] sm:px-4">
